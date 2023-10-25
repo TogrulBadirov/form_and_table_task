@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.user-data-table {
+  margin: 50px auto;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+.user-data-table td {
+  border: 1px solid black;
+  margin: 0;
+  border-collapse: collapse;
+  padding: 5px;
+}
+.user-data-table th {
+  border: 1px solid black;
+  margin: 0;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+.user-data-form {
+  width: 400px;
+  border: 1px solid black;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+input {
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: aqua;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin: 10px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form and Table</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+
+<body>
+    <form action="" class="user-data-form">
+        <input placeholder="Firstname" type="text" id="firstName" />
+        <input placeholder="Lastname" type="text" id="lastName" />
+        <input placeholder="Age" type="number" id="age" />
+        <div>
+            <p>isMarried</p>
+        <input type="radio" name="isMarried" class="isMarried" value="Yes" />
+        <label for="">Yes</label>
+        <input type="radio" name="isMarried" class="isMarried" value="No" />
+        <label for="">No</label>
+        </div>
+        
+        <button type="submit" id="btn">Add User</button>
+    </form>
+
+    <table class="user-data-table">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+            <th>IsMarried</th>
+        </tr>
+    </table>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
